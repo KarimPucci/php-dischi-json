@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="app">
+    <div id="app">
         <div class="container">
             <div class="card" style="width: 18rem;">
                 <img src="..." class="card-img-top" alt="...">
@@ -36,7 +36,6 @@
         </div>
     </div>
 
-    
-
+    <script src="js/main.js"></script>
 </body>
 </html>
