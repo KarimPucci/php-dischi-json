@@ -1,4 +1,4 @@
-* {
+body {
     background: #012451;
     color: white;
 }
@@ -6,23 +6,32 @@
 .container-logo {
     height: 70px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #011022;
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 30px;
+    margin: 3rem;
 }
 
 .container {
     width: calc(100% / 3);
 }
 
-
 .logo img {
     height: 50px;
     width: 50px;
+    margin-left: 100px;
+    margin-top: 7%;
+}
+
+.card-body {
+    background-color: #011022;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
