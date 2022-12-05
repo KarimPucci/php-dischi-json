@@ -1,4 +1,28 @@
 * {
-    background: #001632;
+    background: #012451;
     color: white;
+}
+
+.container-logo {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #011022;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.container {
+    width: calc(100% / 3);
+}
+
+
+.logo img {
+    height: 50px;
+    width: 50px;
 }

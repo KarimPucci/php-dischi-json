@@ -19,19 +19,19 @@
 <body>
     <div class="container-logo">
         <div class="logo">
-            <img src="" alt="">
+            <img src="public/spotify.png" alt="">
         </div>
     </div>
 
     <div id="app">
-        <div class="wrapper d-flex justify-content-between">
-            <div class="container"v-for="(card, index) in cards" :key="index">
+        <div class="wrapper d-flex">
+            <div class="container" v-for="(card, index) in cards" :key="index">
                 <div style="width: 18rem;">
                     <img :src="card.poster" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">{{card.title}}</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h4 class="card-title">{{card.title}}</h3>
+                        <h5 class="card-author">{{card.author}}</h5>
+                        <h6 class="card-year">{{card.year}}</h6>
                     </div>
                 </div>
             </div>
