@@ -26,13 +26,11 @@
     <div id="app">
         <div class="wrapper d-flex">
             <div class="container" v-for="(card, index) in cards" :key="index">
-                <div style="width: 18rem;">
+                <div class="card-body">
                     <img :src="card.poster" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">{{card.title}}</h3>
-                        <h5 class="card-author">{{card.author}}</h5>
-                        <h6 class="card-year">{{card.year}}</h6>
-                    </div>
+                    <h4 class="card-title">{{card.title}}</h4>
+                    <h5 class="card-author">{{card.author}}</h5>
+                    <h6 class="card-year">{{card.year}}</h6>
                 </div>
             </div>
         </div>
